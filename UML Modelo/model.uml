@@ -1,32 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_CtOIgCqNEeeGNeaNcFFe-w" name="RootElement">
-  <packagedElement xmi:type="uml:Class" xmi:id="_ddLukCqOEeeGNeaNcFFe-w" name="Partida" visibility="package">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_H-zE8CqPEeeGNeaNcFFe-w" name="palabra">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_OWPvMCqPEeeGNeaNcFFe-w" name="letras">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_5lVhgBydEduyofBvg4RL2w"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BKqXUCqSEeeGNeaNcFFe-w" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BKzhQCqSEeeGNeaNcFFe-w" value="*"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_fixFkCqPEeeGNeaNcFFe-w" name="pista">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_zjzyACqPEeeGNeaNcFFe-w" name="intentos">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2LN5ICqPEeeGNeaNcFFe-w" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2LvdkCqPEeeGNeaNcFFe-w" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ksx4sCqQEeeGNeaNcFFe-w" name="fin">
-      <ownedComment xmi:type="uml:Comment" xmi:id="_SV0tsCqQEeeGNeaNcFFe-w" annotatedElement="_Ksx4sCqQEeeGNeaNcFFe-w">
-        <body>Funciona para saber si la partida ha terminado o no.</body>
-      </ownedComment>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
-    </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_k681wCqQEeeGNeaNcFFe-w" name="generaPalabra"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_xsBUgCqQEeeGNeaNcFFe-w" name="generaPista"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_S_W9cCqREeeGNeaNcFFe-w" name="verificarLetra"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_bZyMECqREeeGNeaNcFFe-w" name="verificarFin"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_79A4oCqPEeeGNeaNcFFe-w" name="Horca"/>
-</uml:Model>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:Codegen="http://www.eclipse.org/papyrus/Codegen/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_CtOIgCqNEeeGNeaNcFFe-w" name="Ahorcado">
+    <packagedElement xmi:type="uml:Class" xmi:id="_ddLukCqOEeeGNeaNcFFe-w" name="Partida" visibility="package">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_H-zE8CqPEeeGNeaNcFFe-w" name="palabra">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_OWPvMCqPEeeGNeaNcFFe-w" name="letras">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_5lVhgBydEduyofBvg4RL2w"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BKqXUCqSEeeGNeaNcFFe-w" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BKzhQCqSEeeGNeaNcFFe-w" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_fixFkCqPEeeGNeaNcFFe-w" name="pista">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zjzyACqPEeeGNeaNcFFe-w" name="intentos">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2LN5ICqPEeeGNeaNcFFe-w" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2LvdkCqPEeeGNeaNcFFe-w" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Ksx4sCqQEeeGNeaNcFFe-w" name="fin">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_SV0tsCqQEeeGNeaNcFFe-w" annotatedElement="_Ksx4sCqQEeeGNeaNcFFe-w">
+          <body>Funciona para saber si la partida ha terminado o no.</body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusJava_LIBRARIES/JavaLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_k681wCqQEeeGNeaNcFFe-w" name="generaPalabra"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_xsBUgCqQEeeGNeaNcFFe-w" name="generaPista"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_S_W9cCqREeeGNeaNcFFe-w" name="verificarLetra"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_bZyMECqREeeGNeaNcFFe-w" name="verificarFin"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_79A4oCqPEeeGNeaNcFFe-w" name="Horca"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_C2jFMDmXEeerr9Qk-yhsIw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C2k6YDmXEeerr9Qk-yhsIw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/Codegen/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Codegen_PROFILES/Codegen.profile.uml#_fPDsIBa-EearhdjjJ6cVzQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_C2urYDmXEeerr9Qk-yhsIw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C2vScDmXEeerr9Qk-yhsIw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/PapyrusJava/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PapyrusJava_PROFILES/PapyrusJava.profile.uml#_j9REUByGEduN1bTiWJ0lyw"/>
+    </profileApplication>
+  </uml:Model>
+  <Codegen:Project xmi:id="_NYv4oDmXEeerr9Qk-yhsIw" base_Model="_CtOIgCqNEeeGNeaNcFFe-w" projectName="ElAhorcado" sourceFolder="src"/>
+</xmi:XMI>
